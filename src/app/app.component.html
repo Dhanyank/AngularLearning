@@ -1,14 +1,21 @@
-<h3>Table of data</h3>
 <div>
   <table class="table table-bordered">
     <tr>
+      <th>ID</th>
       <th>Name</th>
-      <th>Age</th>
+      <th>User Name</th>
+      <th>Phone Number</th>
+      <th>Email</th>
     </tr>
 
-    <tr *ngFor="let data of myData;">
- <td>{{data.Name}}</td>
- <td>{{data.Age}}</td>
+    <tr *ngFor="let data of details;">
+ <td>{{data.id}}</td>
+ <td>{{data.name}}</td>
+ <td>{{data.username}}</td>
+ <td>{{data.phone}}</td>
+ <td>{{data.email}}</td>
+
+
 
  
     </tr>
