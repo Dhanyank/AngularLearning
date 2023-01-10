@@ -1,6 +1,9 @@
 
-<div>
+<h3>Unordered list</h3>
+<div *ngFor="let array of myArray">
+  <ul>
+    <li>{{array}}
+    </li>
+    </ul>
 
-  <h3>The current date and time(using Interpollation and Pipe) </h3>
-  <h2>{{date|date:'short'}}</h2>
 </div>

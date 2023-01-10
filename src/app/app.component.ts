@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  public date=new Date();
+  public myArray= ["Angular", "React", "Vue"];
 
 
   ngOnInit(): void {
