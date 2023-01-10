@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  public myArray= ["Angular", "React", "Vue"];
 
 
+  public myData =[
+    {Name: 'Jhon',Age:28},
+    {Name: 'Sai',Age:34},
+    {Name: 'Dany',Age:19},
+    {Name: 'Samuel',Age:25},
+    {Name: 'Susan',Age:22},
+
+];
   ngOnInit(): void {
 
   }

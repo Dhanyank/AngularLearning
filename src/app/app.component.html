@@ -1,9 +1,18 @@
+<h3>Table of data</h3>
+<div>
+  <table class="table table-bordered">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
 
-<h3>Unordered list</h3>
-<div *ngFor="let array of myArray">
-  <ul>
-    <li>{{array}}
-    </li>
-    </ul>
+    <tr *ngFor="let data of myData;">
+ <td>{{data.Name}}</td>
+ <td>{{data.Age}}</td>
 
+ 
+    </tr>
+  </table>
 </div>
+
+
