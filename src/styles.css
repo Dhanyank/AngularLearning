@@ -1,0 +1,39 @@
+table,th{
+    color: rgb(32, 30, 30);
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-style: solid;
+
+}
+.table{
+    margin-right:500px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 600px;
+    width: 500px;
+    border-color:black !important;
+    border-style:double;
+    border: 2px solid;
+
+
+
+
+    }
+
+    .table,col{
+        border: 2px solid;
+
+
+    }
+
+    .table,tr{
+        border: 2px solid;
+
+
+    }
+
+
+
