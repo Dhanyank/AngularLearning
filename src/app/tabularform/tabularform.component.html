@@ -1,0 +1,29 @@
+<div>
+    <table class="table table-bordered">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>User Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+      </tr>
+  
+      <tr *ngFor="let data of details;">
+   <td>{{data.id}}</td>
+   <td>{{data.name}}</td>
+   <td>{{data.username}}</td>
+   <td>{{data.phone}}</td>
+   <td>{{data.email}}</td>
+  
+  
+  
+   
+      </tr>
+    </table>
+  </div>
+
+  <p style="color:white;align-items:baseline;">Not a user? <a routerLink="registration">Register</a></p>
+
+  
+  
+  

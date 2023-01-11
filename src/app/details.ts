@@ -1,4 +1,4 @@
-export interface Details{
+export interface Data{
     id:number,
     name:string,
     username:string,
