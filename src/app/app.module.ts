@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TabularformComponent } from './tabularform/tabularform.component';
+// import { NgForm } from '@angular/forms';
 
 @NgModule({
   declarations: [
